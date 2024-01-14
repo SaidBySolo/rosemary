@@ -1,11 +1,12 @@
-import React from 'react'
+import Header from "./components/Header"
+import LogViewer from "./components/viewer/Mocaco"
 
-
-function App() {
-
- 
+const App = () => {
   return (
-    <div></div>
+    <div className='Container'>
+      <Header />
+      <LogViewer />
+    </div>
   )
 }
 
